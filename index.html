@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAZAM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/AluraLogo.jfif" alt="logo" class="size" width="200px" height="30">
+            <img src="images/RealOne.png" alt="partner" class="size" width="200px" height="30">
+        </div>
+    </header>
+    <main class="main">
+        <section class="fixup">
+            <div>
+                <textarea cols="40" rows="20" class="magic" placeholder="Write text, only lower case"></textarea>
+            </div>
+            <div> 
+                <textarea cols="30" rows="20" class="shazam" placeholder="Watch your text"></textarea>
+            </div>
+        </section>
+        <div class="botoes">
+            <button class="encrypt" onclick="btnEncrypt()"> Crypt </button>
+            <button class="copy" onclick="btnCopy()"> Copy </button>
+            <button class="decrypt" onclick="btnDecrypt()"> Decrypt </button>
+        </div>
+    </main>
+       <script src="index.js"></script>
+</body>
+
+</html>
